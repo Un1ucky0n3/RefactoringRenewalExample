@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net8.0": {
       "LegacyRenewalApp/1.0.0": {
@@ -27,19 +27,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gonto\\.nuget\\packages\\": {}
+    "C:\\Users\\s32962\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gonto\\Desktop\\zadanie_refactoring_renewal\\LegacyRenewalAppConsumer\\LegacyRenewalAppConsumer.csproj",
+      "projectUniqueName": "C:\\Users\\s32962\\RiderProjects\\RefactoringRenewalExample\\LegacyRenewalAppConsumer\\LegacyRenewalAppConsumer.csproj",
       "projectName": "LegacyRenewalAppConsumer",
-      "projectPath": "C:\\Users\\gonto\\Desktop\\zadanie_refactoring_renewal\\LegacyRenewalAppConsumer\\LegacyRenewalAppConsumer.csproj",
-      "packagesPath": "C:\\Users\\gonto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gonto\\Desktop\\zadanie_refactoring_renewal\\LegacyRenewalAppConsumer\\obj\\",
+      "projectPath": "C:\\Users\\s32962\\RiderProjects\\RefactoringRenewalExample\\LegacyRenewalAppConsumer\\LegacyRenewalAppConsumer.csproj",
+      "packagesPath": "C:\\Users\\s32962\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\s32962\\RiderProjects\\RefactoringRenewalExample\\LegacyRenewalAppConsumer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\gonto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\s32962\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,11 +56,10 @@
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\gonto\\Desktop\\zadanie_refactoring_renewal\\LegacyRenewalApp\\LegacyRenewalApp.csproj": {
-              "projectPath": "C:\\Users\\gonto\\Desktop\\zadanie_refactoring_renewal\\LegacyRenewalApp\\LegacyRenewalApp.csproj"
+            "C:\\Users\\s32962\\RiderProjects\\RefactoringRenewalExample\\LegacyRenewalApp\\LegacyRenewalApp.csproj": {
+              "projectPath": "C:\\Users\\s32962\\RiderProjects\\RefactoringRenewalExample\\LegacyRenewalApp\\LegacyRenewalApp.csproj"
             }
           }
         }
@@ -70,11 +74,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "11.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
-        "framework": "net8.0",
         "targetAlias": "net8.0",
         "imports": [
           "net461",
@@ -87,30 +90,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.24, 8.0.24]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.24, 8.0.24]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-preview.2.26159.112/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

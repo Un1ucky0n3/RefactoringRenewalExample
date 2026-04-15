@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "au/TLs4eauA=",
+  "dgSpecHash": "4w3Dp3dm9UE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gonto\\Desktop\\zadanie_refactoring_renewal\\LegacyRenewalApp\\LegacyRenewalApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\gonto\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\gonto\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
-    "C:\\Users\\gonto\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\s32962\\RiderProjects\\RefactoringRenewalExample\\LegacyRenewalApp\\LegacyRenewalApp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
